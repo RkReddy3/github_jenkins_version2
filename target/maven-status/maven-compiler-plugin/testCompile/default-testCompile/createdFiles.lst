@@ -1,0 +1,8 @@
+orangeHRM\Testcases\Data_Driven_Test.class
+orangeHRM\Testcases\employecheckboxclickbyStringEmpid.class
+orangeHRM\Testcases\deletesimpleemploeforpractice.class
+orangeHRM\Testcases\Employeelisttest.class
+orangeHRM\Testcases\Homepagetest.class
+orangeHRM\Testcases\AddemployeeTest.class
+orangeHRM\Testcases\LoginpageTest.class
+orangeHRM\Testcases\EmpdeleteTest.class
