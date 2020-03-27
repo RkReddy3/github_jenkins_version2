@@ -29,16 +29,16 @@ public class Homepagetest extends TestBase{
 		 String homepagetitle=homepage.verifyhomepagetitle();
 		 Assert.assertEquals(homepagetitle, "OrangeHRM","home page title not matched");		 
 	 }
-	 @Test(priority=2)
-	 public void verifyPIMtest() {
-		 homepage.verifycorrectPIM();
-		 Assert.assertTrue(homepage.verifycorrectPIM());
-	 }
-	 
-	 @Test(priority=3)
-	 public void addemplyclicktest() throws InterruptedException {
-		 homepage.clickaddemp();
-	 }
+//	 @Test(priority=2)
+//	 public void verifyPIMtest() {
+//		 homepage.verifycorrectPIM();
+//		 Assert.assertTrue(homepage.verifycorrectPIM());
+//	 }
+//	 
+//	 @Test(priority=3)
+//	 public void addemplyclicktest() throws InterruptedException {
+//		 homepage.clickaddemp();
+//	 }
 	 
 	 
 	 @AfterMethod
