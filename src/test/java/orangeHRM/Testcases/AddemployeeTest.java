@@ -24,7 +24,7 @@ public class AddemployeeTest extends TestBase {
 		loginpage=new Loginpage();
 		homepage=loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
 		addemployee=homepage.clickaddemp();
-		addemployee.getempcode();
+		//addemployee.getempcode();
 			
 	}
 	
