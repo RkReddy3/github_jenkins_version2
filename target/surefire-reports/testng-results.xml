@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="64332" started-at="2020-03-27T16:36:41Z" finished-at="2020-03-27T16:37:45Z">
+  <suite name="Suite" duration-ms="69234" started-at="2020-03-27T17:39:06Z" finished-at="2020-03-27T17:40:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="64332" started-at="2020-03-27T16:36:41Z" finished-at="2020-03-27T16:37:45Z">
-      <class name="orangeHRM.Testcases.AddemployeeTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@5e57643e]" name="setup" is-config="true" duration-ms="22621" started-at="2020-03-27T22:06:59Z" finished-at="2020-03-27T22:07:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Addemployee()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@5e57643e]" name="Addemployee" duration-ms="4366" started-at="2020-03-27T22:07:22Z" finished-at="2020-03-27T22:07:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Addemployee -->
-        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@5e57643e]" name="close" is-config="true" duration-ms="643" started-at="2020-03-27T22:07:26Z" finished-at="2020-03-27T22:07:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- orangeHRM.Testcases.AddemployeeTest -->
+    <test name="Test" duration-ms="69234" started-at="2020-03-27T17:39:06Z" finished-at="2020-03-27T17:40:15Z">
       <class name="orangeHRM.Testcases.Homepagetest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@133e16fd]" name="setup" is-config="true" duration-ms="17747" started-at="2020-03-27T22:07:27Z" finished-at="2020-03-27T22:07:44Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@133e16fd]" name="setup" is-config="true" duration-ms="18429" started-at="2020-03-27T23:09:56Z" finished-at="2020-03-27T23:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyhomepagetittleTest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@133e16fd]" name="verifyhomepagetittleTest" duration-ms="9" started-at="2020-03-27T22:07:44Z" finished-at="2020-03-27T22:07:44Z">
+        <test-method status="PASS" signature="verifyhomepagetittleTest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@133e16fd]" name="verifyhomepagetittleTest" duration-ms="12" started-at="2020-03-27T23:10:15Z" finished-at="2020-03-27T23:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyhomepagetittleTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@133e16fd]" name="close" is-config="true" duration-ms="652" started-at="2020-03-27T22:07:44Z" finished-at="2020-03-27T22:07:45Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@133e16fd]" name="close" is-config="true" duration-ms="795" started-at="2020-03-27T23:10:15Z" finished-at="2020-03-27T23:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- orangeHRM.Testcases.Homepagetest -->
-      <class name="orangeHRM.Testcases.LoginpageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@57f23557]" name="setup" is-config="true" duration-ms="12711" started-at="2020-03-27T22:06:41Z" finished-at="2020-03-27T22:06:53Z">
+      <class name="orangeHRM.Testcases.AddemployeeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@5e57643e]" name="setup" is-config="true" duration-ms="24900" started-at="2020-03-27T23:09:25Z" finished-at="2020-03-27T23:09:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@57f23557]" name="logintest" duration-ms="4914" started-at="2020-03-27T22:06:53Z" finished-at="2020-03-27T22:06:58Z">
+        <test-method status="PASS" signature="Addemployee()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@5e57643e]" name="Addemployee" duration-ms="5223" started-at="2020-03-27T23:09:50Z" finished-at="2020-03-27T23:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addemployee -->
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@5e57643e]" name="close" is-config="true" duration-ms="716" started-at="2020-03-27T23:09:55Z" finished-at="2020-03-27T23:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- orangeHRM.Testcases.AddemployeeTest -->
+      <class name="orangeHRM.Testcases.LoginpageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@57f23557]" name="setup" is-config="true" duration-ms="13111" started-at="2020-03-27T23:09:06Z" finished-at="2020-03-27T23:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@57f23557]" name="logintest" duration-ms="5315" started-at="2020-03-27T23:09:19Z" finished-at="2020-03-27T23:09:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@57f23557]" name="close" is-config="true" duration-ms="668" started-at="2020-03-27T22:06:58Z" finished-at="2020-03-27T22:06:59Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@57f23557]" name="close" is-config="true" duration-ms="713" started-at="2020-03-27T23:09:25Z" finished-at="2020-03-27T23:09:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
