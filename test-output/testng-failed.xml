@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)" preserve-order="true">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="ExtentReports.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none" preserve-order="true">
     <classes>
-      <class name="orangeHRM.Testcases.Data_Driven_Test">
+      <class name="orangeHRM.Testcases.LoginpageTest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- orangeHRM.Testcases.LoginpageTest -->
+      <class name="orangeHRM.Testcases.Homepagetest">
         <methods>
           <include name="setup"/>
           <include name="close"/>
-          <include name="addempdetails" invocation-numbers="0"/>
         </methods>
-      </class> <!-- orangeHRM.Testcases.Data_Driven_Test -->
+      </class> <!-- orangeHRM.Testcases.Homepagetest -->
+      <class name="orangeHRM.Testcases.AddemployeeTest">
+        <methods>
+          <include name="Addemployee"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- orangeHRM.Testcases.AddemployeeTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
