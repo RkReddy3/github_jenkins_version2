@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="10.566" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="10.256" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\rkreddy\rkrworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2692318259743867571.tmp"/>
+    <property name="classworlds.conf" value="D:\rkreddy\rkrworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8720635720177571262.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\Ramakrishna\Downloads\chromedriver.exe;C:\Users\Ramakrishna\Desktop\Drivers;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\Ramakrishna\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\bin;;D:\rkreddy\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="logintest" classname="orangeHRM.Testcases.LoginpageTest" time="5.331"/>
-  <testcase name="Addemployee" classname="orangeHRM.Testcases.AddemployeeTest" time="5.223"/>
-  <testcase name="verifyhomepagetittleTest" classname="orangeHRM.Testcases.Homepagetest" time="0.012"/>
+  <testcase name="logintest" classname="orangeHRM.Testcases.LoginpageTest" time="5.439"/>
+  <testcase name="Addemployee" classname="orangeHRM.Testcases.AddemployeeTest" time="4.783"/>
+  <testcase name="verifyhomepagetittleTest" classname="orangeHRM.Testcases.Homepagetest" time="0.034"/>
 </testsuite>
