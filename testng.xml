@@ -7,9 +7,9 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <!-- <class name="orangeHRM.Testcases.LoginpageTest"/> -->
-      <class name="orangeHRM.Testcases.AddemployeeTest"/>
-      <class name="orangeHRM.Testcases.Homepagetest"/>
+      <class name="orangeHRM.Testcases.LoginpageTest"/>
+     <!--  <class name="orangeHRM.Testcases.AddemployeeTest"/>
+      <class name="orangeHRM.Testcases.Homepagetest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 4 failed,  1 skipped,  2 passed</span>
+                    <span class="method-stats">10 methods, 4 failed,  1 skipped,  5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -144,6 +144,21 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orangeHRM.Testcases.LoginpageTest" hash-for-method="loginpageTitleTest">loginpageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orangeHRM.Testcases.LoginpageTest" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orangeHRM.Testcases.LoginpageTest" hash-for-method="logoTest">logoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orangeHRM.Testcases.Homepagetest" hash-for-method="verifyPIMtest">verifyPIMtest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -191,7 +206,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
 ... Removed 24 stack frames<br/> org.openqa.selenium.UnsupportedCommandException: mouseMoveTo
 Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
@@ -209,7 +224,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -235,7 +250,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-"</b><br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)<br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)<br>org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)<br>org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)<br>org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)<br>org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)<br>org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)<br>org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)<br>org.openqa.selenium.interactions.Actions.perform(Actions.java:594)<br>orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)<br>orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br>org.testng.internal.Invoker.retryFailed(Invoker.java:1055)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1260)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1122)<br>org.testng.TestNG.run(TestNG.java:1030)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+"</b><br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)<br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)<br>org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)<br>org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)<br>org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)<br>org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)<br>org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)<br>org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)<br>org.openqa.selenium.interactions.Actions.perform(Actions.java:594)<br>orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)<br>orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br>org.testng.internal.Invoker.retryFailed(Invoker.java:1055)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1260)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1122)<br>org.testng.TestNG.run(TestNG.java:1030)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -260,7 +275,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
 ... Removed 24 stack frames<br/> org.openqa.selenium.UnsupportedCommandException: mouseMoveTo
 Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
@@ -278,76 +293,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
-	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
-	at org.testng.internal.Invoker.retryFailed(Invoker.java:1055)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1260)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
-	at org.testng.TestNG.run(TestNG.java:1030)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-"</b><br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)<br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)<br>org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)<br>org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)<br>org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)<br>org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)<br>org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)<br>org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)<br>org.openqa.selenium.interactions.Actions.perform(Actions.java:594)<br>orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)<br>orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br>org.testng.internal.Invoker.retryFailed(Invoker.java:1055)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1260)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1122)<br>org.testng.TestNG.run(TestNG.java:1030)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addemplyclicktest">
-                  </a> <!-- addemplyclicktest -->
-                  <span class="method-name">addemplyclicktest</span>
-                  <div class="stack-trace"><b>"org.openqa.selenium.UnsupportedCommandException: mouseMoveTo
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;RKREDDY3&apos;, ip: &apos;192.168.43.204&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
-	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
-	at org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)
-	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
-	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
-... Removed 24 stack frames<br/> org.openqa.selenium.UnsupportedCommandException: mouseMoveTo
-Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
-System info: host: &apos;RKREDDY3&apos;, ip: &apos;192.168.43.204&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)
-	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
-	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
-	at org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)
-	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -373,7 +319,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-"</b><br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)<br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)<br>org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)<br>org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)<br>org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)<br>org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)<br>org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)<br>org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)<br>org.openqa.selenium.interactions.Actions.perform(Actions.java:594)<br>orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)<br>orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1122)<br>org.testng.TestNG.run(TestNG.java:1030)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+"</b><br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)<br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)<br>org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)<br>org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)<br>org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)<br>org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)<br>org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)<br>org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)<br>org.openqa.selenium.interactions.Actions.perform(Actions.java:594)<br>orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)<br>orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1122)<br>org.testng.TestNG.run(TestNG.java:1030)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -398,7 +344,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
 ... Removed 24 stack frames<br/> org.openqa.selenium.UnsupportedCommandException: mouseMoveTo
 Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
@@ -416,7 +362,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -442,7 +388,76 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-"</b><br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)<br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)<br>org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)<br>org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)<br>org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)<br>org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)<br>org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)<br>org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)<br>org.openqa.selenium.interactions.Actions.perform(Actions.java:594)<br>orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)<br>orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br>org.testng.internal.Invoker.retryFailed(Invoker.java:1055)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1260)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1122)<br>org.testng.TestNG.run(TestNG.java:1030)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+"</b><br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)<br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)<br>org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)<br>org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)<br>org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)<br>org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)<br>org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)<br>org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)<br>org.openqa.selenium.interactions.Actions.perform(Actions.java:594)<br>orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)<br>orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br>org.testng.internal.Invoker.retryFailed(Invoker.java:1055)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1260)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1122)<br>org.testng.TestNG.run(TestNG.java:1030)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addemplyclicktest">
+                  </a> <!-- addemplyclicktest -->
+                  <span class="method-name">addemplyclicktest</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.UnsupportedCommandException: mouseMoveTo
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;RKREDDY3&apos;, ip: &apos;192.168.43.204&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
+	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
+... Removed 24 stack frames<br/> org.openqa.selenium.UnsupportedCommandException: mouseMoveTo
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;RKREDDY3&apos;, ip: &apos;192.168.43.204&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
+	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1055)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1260)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+"</b><br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:222)<br>org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:119)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)<br>org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)<br>org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)<br>org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)<br>org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)<br>org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)<br>org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)<br>org.openqa.selenium.interactions.Actions.perform(Actions.java:594)<br>orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)<br>orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br>java.lang.reflect.Method.invoke(Unknown Source)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:715)<br>org.testng.internal.Invoker.retryFailed(Invoker.java:1055)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1260)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1122)<br>org.testng.TestNG.run(TestNG.java:1030)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -463,6 +478,35 @@ Driver info: driver.version: RemoteWebDriver
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">orangeHRM.Testcases.LoginpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginpageTitleTest">
+                  </a> <!-- loginpageTitleTest -->
+                  <span class="method-name">loginpageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest">
+                  </a> <!-- logintest -->
+                  <span class="method-name">logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoTest">
+                  </a> <!-- logoTest -->
+                  <span class="method-name">logoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -501,6 +545,7 @@ Driver info: driver.version: RemoteWebDriver
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; preserve-order=&quot;true&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;orangeHRM.Testcases.LoginpageTest&quot;/&gt;
       &lt;class name=&quot;orangeHRM.Testcases.AddemployeeTest&quot;/&gt;
       &lt;class name=&quot;orangeHRM.Testcases.Homepagetest&quot;/&gt;
     &lt;/classes&gt;
@@ -516,7 +561,7 @@ Driver info: driver.version: RemoteWebDriver
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -542,40 +587,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPIMtest')
-data.setCell(0, 2, 'orangeHRM.Testcases.Homepagetest')
-data.setCell(0, 3, 294);
+data.setCell(0, 1, 'logintest')
+data.setCell(0, 2, 'orangeHRM.Testcases.LoginpageTest')
+data.setCell(0, 3, 3889);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addemplyclicktest')
 data.setCell(1, 2, 'orangeHRM.Testcases.Homepagetest')
-data.setCell(1, 3, 93);
+data.setCell(1, 3, 2085);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'addemplyclicktest')
 data.setCell(2, 2, 'orangeHRM.Testcases.Homepagetest')
-data.setCell(2, 3, 87);
+data.setCell(2, 3, 2084);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'addemplyclicktest')
 data.setCell(3, 2, 'orangeHRM.Testcases.Homepagetest')
-data.setCell(3, 3, 84);
+data.setCell(3, 3, 2084);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'addemplyclicktest')
 data.setCell(4, 2, 'orangeHRM.Testcases.Homepagetest')
-data.setCell(4, 3, 82);
+data.setCell(4, 3, 2082);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyhomepagetittleTest')
+data.setCell(5, 1, 'verifyPIMtest')
 data.setCell(5, 2, 'orangeHRM.Testcases.Homepagetest')
-data.setCell(5, 3, 20);
+data.setCell(5, 3, 349);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Addemployee')
-data.setCell(6, 2, 'orangeHRM.Testcases.AddemployeeTest')
-data.setCell(6, 3, 2);
+data.setCell(6, 1, 'logoTest')
+data.setCell(6, 2, 'orangeHRM.Testcases.LoginpageTest')
+data.setCell(6, 3, 80);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginpageTitleTest')
+data.setCell(7, 2, 'orangeHRM.Testcases.LoginpageTest')
+data.setCell(7, 3, 13);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyhomepagetittleTest')
+data.setCell(8, 2, 'orangeHRM.Testcases.Homepagetest')
+data.setCell(8, 3, 12);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Addemployee')
+data.setCell(9, 2, 'orangeHRM.Testcases.AddemployeeTest')
+data.setCell(9, 3, 3);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 662 ms</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -601,99 +658,141 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">orangeHRM.Testcases.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logintest</span>
+                <span class="method-start">12986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">16877 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">orangeHRM.Testcases.AddemployeeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setup</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">17529 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Addemployee</span>
-                <span class="method-start">18033 ms</span>
+                <span class="method-start">36186 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">orangeHRM.Testcases.Homepagetest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">18039 ms</span>
+                <span class="method-start">36197 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyhomepagetittleTest</span>
-                <span class="method-start">35558 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addemplyclicktest</span>
+                <span class="method-start">52341 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">35579 ms</span>
+                <span class="method-start">54428 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">36222 ms</span>
+                <span class="method-start">55065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addemplyclicktest</span>
+                <span class="method-start">72096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">74181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">74822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addemplyclicktest</span>
+                <span class="method-start">91141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">93224 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">93865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addemplyclicktest</span>
+                <span class="method-start">109924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">112009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">112647 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPIMtest</span>
-                <span class="method-start">53446 ms</span>
+                <span class="method-start">129659 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">53742 ms</span>
+                <span class="method-start">130009 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">54463 ms</span>
+                <span class="method-start">130736 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addemplyclicktest</span>
-                <span class="method-start">72187 ms</span>
+                <span class="method-name">verifyhomepagetittleTest</span>
+                <span class="method-start">146982 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">72275 ms</span>
+                <span class="method-start">146995 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">orangeHRM.Testcases.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">147632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginpageTitleTest</span>
+                <span class="method-start">159137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">159151 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">72921 ms</span>
+                <span class="method-start">159773 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addemplyclicktest</span>
-                <span class="method-start">89941 ms</span>
+                <span class="method-name">logoTest</span>
+                <span class="method-start">171571 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">90024 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">90657 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addemplyclicktest</span>
-                <span class="method-start">107886 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">close</span>
-                <span class="method-start">107980 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">108613 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addemplyclicktest</span>
-                <span class="method-start">127341 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">close</span>
-                <span class="method-start">127427 ms</span>
+                <span class="method-start">171652 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="4" total="7" passed="2">
+<testng-results skipped="1" failed="4" total="10" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="128086" started-at="2020-03-29T19:13:19Z" finished-at="2020-03-29T19:15:27Z">
+  <suite name="Suite" duration-ms="172306" started-at="2020-03-29T19:35:34Z" finished-at="2020-03-29T19:38:26Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="128086" started-at="2020-03-29T19:13:19Z" finished-at="2020-03-29T19:15:27Z">
+    <test name="Test" duration-ms="172306" started-at="2020-03-29T19:35:34Z" finished-at="2020-03-29T19:38:26Z">
       <class name="orangeHRM.Testcases.Homepagetest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="setup" is-config="true" duration-ms="17519" started-at="2020-03-30T00:43:37Z" finished-at="2020-03-30T00:43:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="setup" is-config="true" duration-ms="16144" started-at="2020-03-30T01:06:10Z" finished-at="2020-03-30T01:06:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyhomepagetittleTest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="verifyhomepagetittleTest" duration-ms="20" started-at="2020-03-30T00:43:54Z" finished-at="2020-03-30T00:43:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyhomepagetittleTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="close" is-config="true" duration-ms="643" started-at="2020-03-30T00:43:54Z" finished-at="2020-03-30T00:43:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="setup" is-config="true" duration-ms="17224" started-at="2020-03-30T00:43:55Z" finished-at="2020-03-30T00:44:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyPIMtest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="verifyPIMtest" duration-ms="294" started-at="2020-03-30T00:44:12Z" finished-at="2020-03-30T00:44:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPIMtest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="close" is-config="true" duration-ms="721" started-at="2020-03-30T00:44:12Z" finished-at="2020-03-30T00:44:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="setup" is-config="true" duration-ms="17724" started-at="2020-03-30T00:44:13Z" finished-at="2020-03-30T00:44:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="addemplyclicktest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="addemplyclicktest" duration-ms="87" started-at="2020-03-30T00:44:31Z" finished-at="2020-03-30T00:44:31Z">
+        <test-method status="FAIL" signature="addemplyclicktest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="addemplyclicktest" duration-ms="2085" started-at="2020-03-30T01:06:26Z" finished-at="2020-03-30T01:06:28Z">
           <exception class="org.openqa.selenium.UnsupportedCommandException">
             <message>
               <![CDATA[mouseMoveTo
@@ -60,7 +36,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -92,15 +68,15 @@ Driver info: driver.version: RemoteWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addemplyclicktest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="close" is-config="true" duration-ms="646" started-at="2020-03-30T00:44:31Z" finished-at="2020-03-30T00:44:32Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="close" is-config="true" duration-ms="637" started-at="2020-03-30T01:06:28Z" finished-at="2020-03-30T01:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="setup" is-config="true" duration-ms="17020" started-at="2020-03-30T00:44:32Z" finished-at="2020-03-30T00:44:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="setup" is-config="true" duration-ms="17031" started-at="2020-03-30T01:06:29Z" finished-at="2020-03-30T01:06:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="addemplyclicktest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="addemplyclicktest" duration-ms="82" started-at="2020-03-30T00:44:49Z" finished-at="2020-03-30T00:44:49Z">
+        <test-method status="FAIL" signature="addemplyclicktest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="addemplyclicktest" duration-ms="2084" started-at="2020-03-30T01:06:46Z" finished-at="2020-03-30T01:06:48Z">
           <exception class="org.openqa.selenium.UnsupportedCommandException">
             <message>
               <![CDATA[mouseMoveTo
@@ -125,7 +101,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -157,15 +133,15 @@ Driver info: driver.version: RemoteWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addemplyclicktest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="close" is-config="true" duration-ms="633" started-at="2020-03-30T00:44:49Z" finished-at="2020-03-30T00:44:49Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="close" is-config="true" duration-ms="641" started-at="2020-03-30T01:06:48Z" finished-at="2020-03-30T01:06:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="setup" is-config="true" duration-ms="17229" started-at="2020-03-30T00:44:49Z" finished-at="2020-03-30T00:45:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="setup" is-config="true" duration-ms="16319" started-at="2020-03-30T01:06:49Z" finished-at="2020-03-30T01:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="addemplyclicktest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="addemplyclicktest" duration-ms="93" started-at="2020-03-30T00:45:07Z" finished-at="2020-03-30T00:45:07Z">
+        <test-method status="FAIL" signature="addemplyclicktest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="addemplyclicktest" duration-ms="2082" started-at="2020-03-30T01:07:05Z" finished-at="2020-03-30T01:07:07Z">
           <exception class="org.openqa.selenium.UnsupportedCommandException">
             <message>
               <![CDATA[mouseMoveTo
@@ -190,7 +166,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -222,15 +198,15 @@ Driver info: driver.version: RemoteWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addemplyclicktest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="close" is-config="true" duration-ms="633" started-at="2020-03-30T00:45:07Z" finished-at="2020-03-30T00:45:07Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="close" is-config="true" duration-ms="641" started-at="2020-03-30T01:07:07Z" finished-at="2020-03-30T01:07:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="setup" is-config="true" duration-ms="18728" started-at="2020-03-30T00:45:07Z" finished-at="2020-03-30T00:45:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="setup" is-config="true" duration-ms="16058" started-at="2020-03-30T01:07:08Z" finished-at="2020-03-30T01:07:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="addemplyclicktest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="addemplyclicktest" duration-ms="84" started-at="2020-03-30T00:45:26Z" finished-at="2020-03-30T00:45:26Z">
+        <test-method status="FAIL" signature="addemplyclicktest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="addemplyclicktest" duration-ms="2084" started-at="2020-03-30T01:07:24Z" finished-at="2020-03-30T01:07:26Z">
           <exception class="org.openqa.selenium.UnsupportedCommandException">
             <message>
               <![CDATA[mouseMoveTo
@@ -255,7 +231,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.Homepagetest.addemplyclicktest(Homepagetest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -287,13 +263,37 @@ Driver info: driver.version: RemoteWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addemplyclicktest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@7920ba90]" name="close" is-config="true" duration-ms="645" started-at="2020-03-30T00:45:26Z" finished-at="2020-03-30T00:45:27Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="close" is-config="true" duration-ms="638" started-at="2020-03-30T01:07:26Z" finished-at="2020-03-30T01:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="setup" is-config="true" duration-ms="17012" started-at="2020-03-30T01:07:27Z" finished-at="2020-03-30T01:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyPIMtest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="verifyPIMtest" duration-ms="349" started-at="2020-03-30T01:07:44Z" finished-at="2020-03-30T01:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPIMtest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="close" is-config="true" duration-ms="727" started-at="2020-03-30T01:07:44Z" finished-at="2020-03-30T01:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="setup" is-config="true" duration-ms="16245" started-at="2020-03-30T01:07:45Z" finished-at="2020-03-30T01:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyhomepagetittleTest()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="verifyhomepagetittleTest" duration-ms="12" started-at="2020-03-30T01:08:01Z" finished-at="2020-03-30T01:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepagetittleTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.Homepagetest@6b419da]" name="close" is-config="true" duration-ms="637" started-at="2020-03-30T01:08:01Z" finished-at="2020-03-30T01:08:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- orangeHRM.Testcases.Homepagetest -->
       <class name="orangeHRM.Testcases.AddemployeeTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@691a7f8f]" name="setup" is-config="true" duration-ms="0" started-at="2020-03-30T00:43:19Z" finished-at="2020-03-30T00:43:19Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@3b2da18f]" name="setup" is-config="true" duration-ms="0" started-at="2020-03-30T01:05:51Z" finished-at="2020-03-30T01:05:51Z">
           <exception class="org.openqa.selenium.UnsupportedCommandException">
             <message>
               <![CDATA[mouseMoveTo
@@ -318,7 +318,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
-	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:45)
+	at orangeHRM.pages.Homepage.clickaddemp(Homepage.java:46)
 	at orangeHRM.Testcases.AddemployeeTest.setup(AddemployeeTest.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -352,15 +352,53 @@ Driver info: driver.version: RemoteWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="Addemployee()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@691a7f8f]" name="Addemployee" duration-ms="2" started-at="2020-03-30T00:43:37Z" finished-at="2020-03-30T00:43:37Z">
+        <test-method status="SKIP" signature="Addemployee()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@3b2da18f]" name="Addemployee" duration-ms="3" started-at="2020-03-30T01:06:10Z" finished-at="2020-03-30T01:06:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addemployee -->
-        <test-method status="SKIP" signature="close()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@691a7f8f]" name="close" is-config="true" duration-ms="0" started-at="2020-03-30T00:43:37Z" finished-at="2020-03-30T00:43:37Z">
+        <test-method status="SKIP" signature="close()[pri:0, instance:orangeHRM.Testcases.AddemployeeTest@3b2da18f]" name="close" is-config="true" duration-ms="0" started-at="2020-03-30T01:06:10Z" finished-at="2020-03-30T01:06:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- orangeHRM.Testcases.AddemployeeTest -->
+      <class name="orangeHRM.Testcases.LoginpageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@50a7bc6e]" name="setup" is-config="true" duration-ms="12986" started-at="2020-03-30T01:05:34Z" finished-at="2020-03-30T01:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@50a7bc6e]" name="logintest" duration-ms="3889" started-at="2020-03-30T01:05:47Z" finished-at="2020-03-30T01:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@50a7bc6e]" name="close" is-config="true" duration-ms="652" started-at="2020-03-30T01:05:51Z" finished-at="2020-03-30T01:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@50a7bc6e]" name="setup" is-config="true" duration-ms="11505" started-at="2020-03-30T01:08:02Z" finished-at="2020-03-30T01:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpageTitleTest()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@50a7bc6e]" name="loginpageTitleTest" duration-ms="13" started-at="2020-03-30T01:08:13Z" finished-at="2020-03-30T01:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpageTitleTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@50a7bc6e]" name="close" is-config="true" duration-ms="622" started-at="2020-03-30T01:08:13Z" finished-at="2020-03-30T01:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@50a7bc6e]" name="setup" is-config="true" duration-ms="11798" started-at="2020-03-30T01:08:14Z" finished-at="2020-03-30T01:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@50a7bc6e]" name="logoTest" duration-ms="80" started-at="2020-03-30T01:08:25Z" finished-at="2020-03-30T01:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:orangeHRM.Testcases.LoginpageTest@50a7bc6e]" name="close" is-config="true" duration-ms="638" started-at="2020-03-30T01:08:26Z" finished-at="2020-03-30T01:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- orangeHRM.Testcases.LoginpageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
