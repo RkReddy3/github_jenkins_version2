@@ -3,10 +3,11 @@
 <suite name="Suite">
 <listeners>
 <listener class-name="ExtentReports.ExtentReporterNG"></listener>
+<listener class-name="retryAnalyzer.My_Transformer"></listener>
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="orangeHRM.Testcases.LoginpageTest"/>
+      <!-- <class name="orangeHRM.Testcases.LoginpageTest"/> -->
       <class name="orangeHRM.Testcases.AddemployeeTest"/>
       <class name="orangeHRM.Testcases.Homepagetest"/>
     </classes>

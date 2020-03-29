@@ -49,11 +49,12 @@ public class Addemployeepage extends TestBase{
 		
 		public String getempcode() {
 			String adempid=Empcode.getAttribute("value");
+			System.out.println("Employee ID   "+adempid);
 			return adempid;
 		}
 		
 		public Employeelistpage addemp(String ln,String fn) throws InterruptedException {
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			lastname.sendKeys(ln);
 			firstname.sendKeys(fn);
 			save.click();

@@ -23,18 +23,18 @@ public class LoginpageTest extends TestBase {
 		loginpage=new Loginpage();
 	}
 	
-//	@Test(priority=1)
-//	public void loginpageTitleTest() {
-//		String title=loginpage.validatetitle();
-//		Assert.assertEquals(title, prop.getProperty("reqtitle"));
-//		
-//	}
-//	
-//	@Test(priority=2)
-//	public void logoTest() {
-//		boolean b1=loginpage.validatelogo();
-//		Assert.assertTrue(b1);
-//	}
+	@Test(priority=1)
+	public void loginpageTitleTest() {
+		String title=loginpage.validatetitle();
+		Assert.assertEquals(title, prop.getProperty("reqtitle"));
+		
+	}
+	
+	@Test(priority=2)
+	public void logoTest() {
+		boolean b1=loginpage.validatelogo();
+		Assert.assertTrue(b1);
+	}
 	
 	@Test
 	public void logintest() {

@@ -44,7 +44,6 @@ public class Homepage extends TestBase {
 		mouseover();
 		Thread.sleep(2000);
 		act.moveToElement(pim).perform();
-		Thread.sleep(2000);
 		addemployee.click();
 		Thread.sleep(2000);
 		driver.switchTo().frame("rightMenu");
