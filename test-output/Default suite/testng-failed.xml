@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="orangeHRM.Testcases.Data_Driven_Test">
+      <class name="orangeHRM.Testcases.AddemployeeTest">
         <methods>
-          <include name="setup"/>
+          <include name="Addemployee"/>
           <include name="close"/>
-          <include name="addempdetails" invocation-numbers="0"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- orangeHRM.Testcases.Data_Driven_Test -->
+      </class> <!-- orangeHRM.Testcases.AddemployeeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -7,6 +7,13 @@
   </listeners>
   <test name="Test(failed)" parallel="none" preserve-order="true">
     <classes>
+      <class name="orangeHRM.Testcases.AddemployeeTest">
+        <methods>
+          <include name="Addemployee"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- orangeHRM.Testcases.AddemployeeTest -->
       <class name="orangeHRM.Testcases.LoginpageTest">
         <methods>
           <include name="close"/>
@@ -17,15 +24,8 @@
         <methods>
           <include name="setup"/>
           <include name="close"/>
-          <include name="addemplyclicktest"/>
         </methods>
       </class> <!-- orangeHRM.Testcases.Homepagetest -->
-      <class name="orangeHRM.Testcases.AddemployeeTest">
-        <methods>
-          <include name="Addemployee"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- orangeHRM.Testcases.AddemployeeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

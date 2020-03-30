@@ -33,7 +33,7 @@ public class Addemployeepage extends TestBase{
 		@FindBy(name="txtEmpFirstName")
 		WebElement firstname;
 		
-		@FindBy(id="btnEdit")
+		@FindBy(id="btnEdit2")
 		WebElement save;
 		
 		public Addemployeepage() {
