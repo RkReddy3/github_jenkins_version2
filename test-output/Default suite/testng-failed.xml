@@ -6,7 +6,6 @@
       <class name="orangeHRM.Testcases.AddemployeeTest">
         <methods>
           <include name="Addemployee"/>
-          <include name="close"/>
           <include name="setup"/>
         </methods>
       </class> <!-- orangeHRM.Testcases.AddemployeeTest -->

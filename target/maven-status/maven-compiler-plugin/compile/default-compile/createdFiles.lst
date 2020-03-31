@@ -1,11 +1,14 @@
 orangeHRM\pages\Employeelistpage.class
+orangeHRM\baseclass\TestBase.class
+retryAnalyzer\Retry_Analyzer.class
+retryAnalyzer\My_Transformer.class
+ExtentReports\ExtentReporterNG.class
+ExtentReports\TestAllureListener.class
 orangeHRM\pages\Loginpage.class
 orangeHRM\utilities\Testdata.class
 orangeHRM\pages\Empdeletepage.class
 orangeHRM\utilities\Util.class
 orangeHRM\pages\Homepage.class
-orangeHRM\baseclass\TestBase.class
 orangeHRM\pages\Addemployeepage.class
 orangeHRM\utilities\SimpleDatautil.class
-ExtentReports\ExtentReporterNG.class
 orangeHRM\utilities\WebEventListener.class

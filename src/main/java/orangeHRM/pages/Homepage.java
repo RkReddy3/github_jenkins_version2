@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.qameta.allure.Step;
 import orangeHRM.baseclass.TestBase;
 
 public class Homepage extends TestBase {
@@ -32,14 +33,17 @@ public class Homepage extends TestBase {
 	public Homepage() {
 		PageFactory.initElements(driver, this);
 		}
-	
+	@Step("verifyhomepagetitle")
 	public String verifyhomepagetitle() {
 		return driver.getTitle();
 	}
+	
+	@Step("verifycorrectPIM")
 	public boolean verifycorrectPIM() {
 		return pim.isDisplayed();
 	}
 	
+	@Step("clickaddemp")
 	public Addemployeepage clickaddemp() throws InterruptedException {
 		mouseover();
 		Thread.sleep(2000);

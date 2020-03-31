@@ -1,9 +1,14 @@
  package orangeHRM.baseclass;
 
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -22,10 +27,11 @@ public class TestBase {
 	public static WebDriverWait wait;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
+	public static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
 	public TestBase() {
 		try {
 			prop= new Properties();
-			FileInputStream fip=new FileInputStream("D:\\rkreddy\\rkrworkspace\\POM_Orange_HRM\\src\\main\\java\\orangeHRM\\configuration\\config.properties");
+			FileInputStream fip=new FileInputStream("C:\\Users\\Ramakrishna\\git\\github_jenkins_version2\\src\\main\\java\\orangeHRM\\configuration\\config.properties");
 			prop.load(fip);
 		}catch (Exception e) {
 			e.printStackTrace();
@@ -60,6 +66,22 @@ public class TestBase {
 		
 		public static void mouseover() {
 			act=new Actions(driver);
+		}
+		
+		public static synchronized WebDriver getDriver() {
+			return tdriver.get();
+		}
+		
+		public String getScreenshot() {
+			File src = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
+			String path = System.getProperty("user.dir") + "/screenshots/" + System.currentTimeMillis() + ".png";
+			File destination = new File(path);
+			try {
+				FileUtils.copyFile(src, destination);
+			} catch (IOException e) {
+				System.out.println("Capture Failed " + e.getMessage());
+			}
+			return path;
 		}
 		
 		

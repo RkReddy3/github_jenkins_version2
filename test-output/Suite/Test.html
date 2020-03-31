@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 30 11:44:49 IST 2020</td>
+<td>Started on:</td><td>Mon Mar 30 21:17:39 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>148 seconds (148626 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (560 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,48 +67,107 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='orangeHRM.Testcases.AddemployeeTest.Addemployee()'><b>Addemployee</b><br>Test class: orangeHRM.Testcases.AddemployeeTest</td>
-<td></td>
-<td>4</td>
-<td>orangeHRM.Testcases.AddemployeeTest@29f69090</td></tr>
+<td title='orangeHRM.Testcases.Homepagetest.setup()'><b>setup</b><br>Test class: orangeHRM.Testcases.Homepagetest</td>
+<td><div><pre>java.lang.NullPointerException
+	at orangeHRM.baseclass.TestBase.intialize(TestBase.java:43)
+	at orangeHRM.Testcases.Homepagetest.setup(Homepagetest.java:29)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1123166613", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1123166613'><pre>java.lang.NullPointerException
+	at orangeHRM.baseclass.TestBase.intialize(TestBase.java:43)
+	at orangeHRM.Testcases.Homepagetest.setup(Homepagetest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>orangeHRM.Testcases.Homepagetest@7bd69e82</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='orangeHRM.Testcases.Homepagetest.addemplyclicktest()'><b>addemplyclicktest</b><br>Test class: orangeHRM.Testcases.Homepagetest</td>
-<td></td>
-<td>10</td>
-<td>orangeHRM.Testcases.Homepagetest@105fece7</td></tr>
-<tr>
-<td title='orangeHRM.Testcases.LoginpageTest.loginpageTitleTest()'><b>loginpageTitleTest</b><br>Test class: orangeHRM.Testcases.LoginpageTest</td>
+<td title='orangeHRM.Testcases.Homepagetest.setup()'><b>setup</b><br>Test class: orangeHRM.Testcases.Homepagetest</td>
 <td></td>
 <td>0</td>
-<td>orangeHRM.Testcases.LoginpageTest@1b083826</td></tr>
+<td>orangeHRM.Testcases.Homepagetest@7bd69e82</td></tr>
 <tr>
-<td title='orangeHRM.Testcases.LoginpageTest.logintest()'><b>logintest</b><br>Test class: orangeHRM.Testcases.LoginpageTest</td>
-<td></td>
-<td>5</td>
-<td>orangeHRM.Testcases.LoginpageTest@1b083826</td></tr>
-<tr>
-<td title='orangeHRM.Testcases.LoginpageTest.logoTest()'><b>logoTest</b><br>Test class: orangeHRM.Testcases.LoginpageTest</td>
+<td title='orangeHRM.Testcases.Homepagetest.setup()'><b>setup</b><br>Test class: orangeHRM.Testcases.Homepagetest</td>
 <td></td>
 <td>0</td>
-<td>orangeHRM.Testcases.LoginpageTest@1b083826</td></tr>
+<td>orangeHRM.Testcases.Homepagetest@7bd69e82</td></tr>
 <tr>
-<td title='orangeHRM.Testcases.Homepagetest.verifyPIMtest()'><b>verifyPIMtest</b><br>Test class: orangeHRM.Testcases.Homepagetest</td>
+<td title='orangeHRM.Testcases.Homepagetest.close()'><b>close</b><br>Test class: orangeHRM.Testcases.Homepagetest</td>
 <td></td>
 <td>0</td>
-<td>orangeHRM.Testcases.Homepagetest@105fece7</td></tr>
+<td>orangeHRM.Testcases.Homepagetest@7bd69e82</td></tr>
 <tr>
-<td title='orangeHRM.Testcases.Homepagetest.verifyhomepagetittleTest()'><b>verifyhomepagetittleTest</b><br>Test class: orangeHRM.Testcases.Homepagetest</td>
+<td title='orangeHRM.Testcases.Homepagetest.close()'><b>close</b><br>Test class: orangeHRM.Testcases.Homepagetest</td>
 <td></td>
 <td>0</td>
-<td>orangeHRM.Testcases.Homepagetest@105fece7</td></tr>
+<td>orangeHRM.Testcases.Homepagetest@7bd69e82</td></tr>
+<tr>
+<td title='orangeHRM.Testcases.Homepagetest.close()'><b>close</b><br>Test class: orangeHRM.Testcases.Homepagetest</td>
+<td></td>
+<td>0</td>
+<td>orangeHRM.Testcases.Homepagetest@7bd69e82</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='orangeHRM.Testcases.Homepagetest.addemplyclicktest()'><b>addemplyclicktest</b><br>Test class: orangeHRM.Testcases.Homepagetest<br>Test method: third test</td>
+<td></td>
+<td>0</td>
+<td>orangeHRM.Testcases.Homepagetest@7bd69e82</td></tr>
+<tr>
+<td title='orangeHRM.Testcases.Homepagetest.verifyPIMtest()'><b>verifyPIMtest</b><br>Test class: orangeHRM.Testcases.Homepagetest<br>Test method: second test</td>
+<td></td>
+<td>0</td>
+<td>orangeHRM.Testcases.Homepagetest@7bd69e82</td></tr>
+<tr>
+<td title='orangeHRM.Testcases.Homepagetest.verifyhomepagetittleTest()'><b>verifyhomepagetittleTest</b><br>Test class: orangeHRM.Testcases.Homepagetest<br>Test method: first test</td>
+<td></td>
+<td>0</td>
+<td>orangeHRM.Testcases.Homepagetest@7bd69e82</td></tr>
 </table><p>
 </body>
 </html>
